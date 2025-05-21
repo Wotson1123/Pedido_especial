@@ -1,0 +1,66 @@
+/* Configuração geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e81010;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando seções */
+section {
+    padding: 50px 20px;
+}
+/* Títulos */
+h1 {
+    color: #ffffff;
+    background-color: rgb(59, 77, 192);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+/* Galeria de imagens */
+.galeria {
+    background-color: rgb(67, 81, 172);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.galeria img {
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.frase img{
+    width: 400px;
+    height: auto;
+    
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+.video {
+  text-align: center;
+  margin: 30px 0;
+  border-radius: 50px;
+}
